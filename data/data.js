@@ -18,7 +18,7 @@ module.exports = [
     location: "St. Augustine Amphitheatre",
     description: "Join us every Saturday under the oaks for local, fresh food, produce straight from the farm, handmade arts and crafts, and live entertainment! Special events and features take place each week, check the individual event listings to see what's coming up!",
     email: "farmersmarketmissy@gmail.com",
-    image: "staampmkt@gmail.com"
+    image: "st-aug-farmers-market-3.jpeg"
   },   {
     _id: uuid(),
     marketName: "Wednesday Pier Farmers Market",
