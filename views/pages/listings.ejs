@@ -1,0 +1,136 @@
+<%- include('../partials/head') -%> 
+
+<%- include('../partials/pages-nav') -%> 
+
+        <div class="page-hero-content">
+            <h1>Add a Farmer's Market</h1>
+            <h2>Have a farmer’s market you’d like to be featured? Let’s see how we can help.</h2>
+        </div>
+    </div>
+
+    <div class="admin-container">
+        <div class="admin-content">
+            <h2 class="title">Let's Add Your Market</h2>
+            <div class="wrapper">
+                <!-- update form action path -->
+                <form action="/markets/create-market" method="POST">
+                <table class="comics">
+                    <tbody>
+                        <tr>
+                            <td><label for="marketName">Market Name</label></td>
+                            <td colspan="4"><input type="text" name="marketName" id="marketName" placeholder="Name of farmers market" minlength="1" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="address">Address</label></td>
+                            <td><input type="text" name="address" id="address" placeholder="Address" minlength="4" required></td>
+                            <td> <input type="text" name="city" id="city" placeholder="City" minlength="1" required class="align"></td>
+                            <td><input type="text" name="state" id="state" placeholder="State" minlength="1" required class="align"></td>
+                            <td><input type="text" name="zipCode" id="zipCode" placeholder="Zip Code" minlength="4" required class="align"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="website">Website</label></td>
+                            <td colspan="4"><input type="text" name="website" id="website" placeholder="Website"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="springSummerFrom">Spring / Summer</label></td>
+                            <td>
+                                <select name="springSummerFrom" id="springSummerFrom">
+                                    <option value="" disabled selected hidden>From</option>
+                                    <option value="january">January</option>
+                                    <option value="february">February</option>
+                                    <option value="march">March</option>
+                                    <option value="april">April</option>
+                                    <option value="may">May</option>
+                                    <option value="june">June</option>
+                                    <option value="july">July</option>
+                                    <option value="august">August</option>
+                                    <option value="september">September</option>
+                                    <option value="october">October</option>
+                                    <option value="november">November</option>
+                                    <option value="december">December</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="springSummerTo" id="springSummerTo">
+                                    <option value="" disabled selected hidden>To</option>
+                                    <option value="january">January</option>
+                                    <option value="february">February</option>
+                                    <option value="march">March</option>
+                                    <option value="april">April</option>
+                                    <option value="may">May</option>
+                                    <option value="june">June</option>
+                                    <option value="july">July</option>
+                                    <option value="august">August</option>
+                                    <option value="september">September</option>
+                                    <option value="october">October</option>
+                                    <option value="november">November</option>
+                                    <option value="december">December</option>
+                                </select>
+                            </td>
+                            <td colspan="2"><input type="text" name="daysAndTimes" id="daysAndTimes" placeholder="i.e: Saturdays, 10:00am - 4:00pm" minlength="1" required></td>
+                        </tr>
+                            <tr>
+                                <td><label for="fallWinterFrom">Fall / Winter</label></td>
+                                <td>
+                                    <select name="fallWinterFrom" id="fallWinterFrom">
+                                        <option value="" disabled selected hidden>From</option>
+                                        <option value="january">January</option>
+                                        <option value="february">February</option>
+                                        <option value="march">March</option>
+                                        <option value="april">April</option>
+                                        <option value="may">May</option>
+                                        <option value="june">June</option>
+                                        <option value="july">July</option>
+                                        <option value="august">August</option>
+                                        <option value="september">September</option>
+                                        <option value="october">October</option>
+                                        <option value="november">November</option>
+                                        <option value="december">December</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="fallWinterTo" id="fallWinterTo">
+                                        <option value="" disabled selected hidden>To</option>
+                                        <option value="january">January</option>
+                                        <option value="february">February</option>
+                                        <option value="march">March</option>
+                                        <option value="april">April</option>
+                                        <option value="may">May</option>
+                                        <option value="june">June</option>
+                                        <option value="july">July</option>
+                                        <option value="august">August</option>
+                                        <option value="september">September</option>
+                                        <option value="october">October</option>
+                                        <option value="november">November</option>
+                                        <option value="december">December</option>
+                                    </select>
+                                </td>
+                                <td colspan="2"><input type="text" name="daysAndTimes2" id="daysAndTimes2" placeholder="i.e: Saturdays, 10:00am - 4:00pm"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="location">Location</label></td>
+                                <td colspan="4"><input type="text" name="location" id="location" placeholder="i.e. Behind building or closed-off public street" minlength="1" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="description">Description</label></td>
+                                <td colspan="4"><textarea id="description" name="description" rows="10" cols="80" placeholder="(Optional) A brief description to help others know a little more about what to expect at this farmers market." minlength="4" required></textarea></td>
+                            </tr>
+                            <tr>
+                                <td><label for="email">Your email</label></td>
+                                <td colspan="4"><input type="text" name="email" id="email" maxlength="4" size="4" placeholder="(Required)" minlength="1" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="image">Market Image</label></td>
+                                <td colspan="4"><input type="text" name="image" id="image" placeholder="Image of farmers market"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="5"><input type="submit" value="Submit" class="button"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+<%- include('../partials/footer') -%>

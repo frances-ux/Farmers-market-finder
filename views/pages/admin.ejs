@@ -1,0 +1,97 @@
+<%- include('../partials/head') -%> 
+
+<%- include('../partials/pages-nav') -%> 
+
+        <div class="page-hero-content">
+            <h1>Admin Console</h1>
+        </div>
+    </div>
+
+        <div class="admin-container">
+            <div class="admin-content">
+                <div class="comic">
+                    <button class="add-comic">
+                        <a href="/logout" role="button">Logout</a>
+                    </button>
+                    <h2 class="title">List of All Markets</h2>
+                </div>
+                <div class="wrapper">
+                    <table class="comics">
+                        <thead>
+                            <tr>
+                                <th>Farmer's Market Title</th>
+                                <th>Edit</th>
+                                <th>DELETE</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                        <%- include('../partials/market-listing') -%>     
+                            <!-- <tr>
+                                <td>Batman: The Dark Knight Returns</td>
+                                <td><input type="button" value="EDIT"></td>
+                                <td><input type="button" value="DELETE"></td>
+                            </tr>
+                            <tr>
+                                <td>Black Panther: A Nation Under Our Feet Book 1</td>
+                                <td><input type="button" value="EDIT"></td>
+                                <td><input type="button" value="DELETE"></td>
+                            </tr>
+                            <tr>
+                                <td>Fun Home: A Family Tragicomic</td>
+                                <td><input type="button" value="EDIT"></td>
+                                <td><input type="button" value="DELETE"></td>
+                            </tr>
+                            <tr>
+                                <td>Hunter X Hunter Vol.</td>
+                                <td><input type="button" value="EDIT"></td>
+                                <td><input type="button" value="DELETE"></td>
+                            </tr>
+                            <tr>
+                                <td>Lumberjanes Vol. 1</td>
+                                <td><input type="button" value="EDIT"></td>
+                                <td><input type="button" value="DELETE"></td>
+                            </tr>
+                            <tr>
+                                <td>March: Book One</td>
+                                <td><input type="button" value="EDIT"></td>
+                                <td><input type="button" value="DELETE"></td>
+                            </tr>
+                            <tr>
+                                <td>One Piece. Vol. 1: Romance Dawn</td>
+                                <td><input type="button" value="EDIT"></td>
+                                <td><input type="button" value="DELETE"></td>
+                            </tr>
+                            <tr>
+                                <td>Parable of the Sower</td>
+                                <td><input type="button" value="EDIT"></td>
+                                <td><input type="button" value="DELETE"></td>
+                            </tr>
+                            <tr>
+                                <td>Queer: A Graphic History</td>
+                                <td><input type="button" value="EDIT"></td>
+                                <td><input type="button" value="DELETE"></td>
+                            </tr>
+                            <tr>
+                                <td>The Walking Dead, Vol. 1: Days Gone Bye</td>
+                                <td><input type="button" value="EDIT"></td>
+                                <td><input type="button" value="DELETE"></td>
+                            </tr>
+                            <tr>
+                                <td>Wake: The Hidden History of Women-Led Slave Revolts</td>
+                                <td><input type="button" value="EDIT"></td>
+                                <td><input type="button" value="DELETE"></td>
+                            </tr>
+                            <tr>
+                                <td>Watchmen</td>
+                                <td><input type="button" value="EDIT"></td>
+                                <td><input type="button" value="DELETE"></td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+<%- include('../partials/footer') -%>
