@@ -1,27 +1,14 @@
 const Market = require('../models/market-model');
 
 module.exports = {
-      // index: async function (request, response) { 
-    //     await Market.find({}).then(function (market) {
-    //         response.render('pages/index', {
-    //             // may change for this to render on markets page
-    //             data: market
-    //         })
-    //     }).catch(function (error) {
-    //         console.log(error)
-    //     }); 
-    // },
-
-
     markets: async function (request, response) {
-    await Market.find({}).then(function (market) {
-        response.render('pages/markets', {
-            data: market
-        })
-    }).catch(function (error) {
-        console.log(error);
-    })
-        
+        await Market.find({}).then(function (market) {
+            response.render('pages/markets', {
+                data: market
+            })
+        }).catch(function (error) {
+            console.log(error);
+        }); 
     },
     // create market - renders the listings form
     create_market: (request, response) => {

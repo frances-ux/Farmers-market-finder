@@ -15,14 +15,14 @@
             <form action="/contact" method="POST">
                 <div>
                     <label for="name">Name</label>
-                    <input type="text" name="name" id="name" placeholder="Name" required>
+                    <input type="text" name="name" id="name" placeholder="Name" minlength="1" required>
                 </div>
                 <div>
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <input type="email" name="email" id="email" placeholder="Email" minlength="5" required>
                 </div>
                 <div>
-                    <textarea id="inquiry" name="inquiry" rows="10" cols="40" placeholder="Tell us a little bit about your inquiry." required></textarea>
+                    <textarea id="inquiry" name="inquiry" rows="10" cols="40" placeholder="Tell us a little bit about your inquiry." minlength="5" required></textarea>
                 </div>
                 
                 <input type="submit" value="Submit" class="button">

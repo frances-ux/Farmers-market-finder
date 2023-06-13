@@ -465,7 +465,14 @@ footer a:visited {
 
 form div {
     padding: 2%;
-    width: 20vw;
+    /* width: 20vw; */
+    width: 100%;
+}
+
+input[type="email"] {
+    width: 40vw;
+    height: auto;
+
 }
 
 .row {
@@ -1136,6 +1143,19 @@ h1 {
         background-color: var(--lightest-yellow);
     }
 
+    input[type="email"] {
+        width: 60vw;
+        height: auto;
+    }
+
+    .more-nav-items {
+        margin: 0;
+    }
+
+    .nav {
+        margin: 0;
+    }
+
 }
 
 
@@ -1202,6 +1222,24 @@ h1 {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+    }
+
+    input[type="email"] {
+        width: 60vw;
+        height: auto;
+
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .more-nav-items {
+        margin: 0;
+    }
+
+    .nav {
+        margin: 0;
     }
 
 }

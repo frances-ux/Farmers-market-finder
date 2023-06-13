@@ -4,17 +4,6 @@ const passport = require('passport');
 
 
 module.exports = {
-    // index: async function (request, response) { 
-    //     await Market.find({}).then(function (market) {
-    //         response.render('pages/index', {
-    //             // may change for this to render on markets page
-    //             data: market
-    //         })
-    //     }).catch(function (error) {
-    //         console.log(error)
-    //     }); 
-    // },
-    // need to update the index code for the Market model 
     index: (request, response) => {
         response.render('pages/index', {
         });
