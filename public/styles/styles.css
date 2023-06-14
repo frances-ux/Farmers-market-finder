@@ -110,6 +110,10 @@ h1,h2,h3 {
     color: var(--black);
 }
 
+.left {
+    text-align: left;
+}
+
 .market-card-headers {
     text-align: left;
     padding-left: 4%;
@@ -414,13 +418,31 @@ footer a:visited {
     align-items: center;
 }
 
+input[type="SUBMIT"] {
+    width: fit-content;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: auto;
+    display: flex;
+}
+
+.contact-content input[type="SUBMIT"] {
+    margin-top: 2rem;
+}
+
 .comics input[type="SUBMIT"] {
+    margin-top: 2rem;
+}
+
+
+
+/* .comics input[type="SUBMIT"] {
     margin: auto;
     width: 129.2px;
     height: auto;
     margin-top: 5%;
     border: none;
-}
+} */
 
 .button {
     background: var(--yellow);
@@ -485,6 +507,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     max-width: 100%;
     margin-bottom: 2rem;
 }
@@ -791,8 +814,8 @@ input {
 
 .nm-container {
     /* max-width: 80%; */
-    margin: auto;
-    margin-bottom: 5%;
+    margin: 1rem auto;
+    /* margin-bottom: 5%; */
     border: 3px solid var(--blue);
     border-radius: 20px;
     background-color: var(--white);
@@ -1156,6 +1179,11 @@ h1 {
         margin: 0;
     }
 
+    span.icons {
+        display: flex;
+        flex-direction: row;
+    }
+
 }
 
 
@@ -1167,7 +1195,7 @@ h1 {
     }
 
     ul.inline-nav li a {
-        display: none;
+        /* display: none; */
         justify-content: center;
         align-items: center;
     }
@@ -1240,6 +1268,11 @@ h1 {
 
     .nav {
         margin: 0;
+    }
+
+    span.icons {
+        display: flex;
+        flex-direction: row;
     }
 
 }

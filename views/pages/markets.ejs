@@ -38,13 +38,14 @@
         <hr>
     </section>
     <section class="home-container-text">
+        <h2 class="left">Directory</h2>
         <% for (market of data) { %>
         <div class="nm-container">
-            <h2 class="market-card-headers">Name of Market</h2>
+            <h3 class="market-card-headers">Name of Market</h3>
             <!-- how do I replace these with ejs tags -->
             <div class="nm-content">
                 <div class="center">
-                    <%= market.image %>
+                    <img src="" alt=""><%= market.image %>
                 </div>
                 <div>
                     <p><%= market.description %></p>
