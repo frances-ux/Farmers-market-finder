@@ -116,7 +116,7 @@ h1,h2,h3 {
 
 .market-card-headers {
     text-align: left;
-    padding-left: 4%;
+    padding-left: 2rem;
     /* padding-top: 4%; */
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -782,6 +782,7 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .map-container {
@@ -795,9 +796,12 @@ input {
 }
 
 .map-desc-container {
-    width: 100%;
+    width: 80vw;
+    /* min-width: 500px; */
     height: 500px;
     margin-bottom: 5%;
+    /* margin-left: 2rem; */
+    margin-right: 2rem;
     border: 3px solid var(--blue);
     border-radius: 16px;
     background-color: var(--lightest-yellow);
@@ -805,7 +809,7 @@ input {
     justify-content: center;
     align-items: center;
     overflow-y: auto;
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .map-desc-content {
@@ -813,12 +817,14 @@ input {
 }
 
 .nm-container {
-    /* max-width: 80%; */
+    /* max-width: 80vw; */
+    min-width: 100%;
     margin: 1rem auto;
     /* margin-bottom: 5%; */
     border: 3px solid var(--blue);
     border-radius: 20px;
-    background-color: var(--white);
+    /* background-color: var(--white); */
+    background-color: var(--lightest-yellow);
 }
 
 .nm-content {
@@ -833,8 +839,10 @@ input {
 }
 
 .nm-img {
-    /* background-size: cover; */
+    background-size: cover;
     width: auto;
+    max-width: 40vw;
+    border-radius: 0.5rem;
     /* add a max width and min width in px */
     height: 40vh;
     /* min-height: 40px; */
@@ -848,6 +856,7 @@ input {
 .center {
     display: flex;
     justify-content: center;
+    margin-right: 2rem;
 }
 
 .make-it {
@@ -867,6 +876,7 @@ input {
     width: 330px;
     text-align: left;
     line-height: 1.5;
+    margin-left: 1rem;
     color: var(--black);
 }
 
