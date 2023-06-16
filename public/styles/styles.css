@@ -284,6 +284,10 @@ a:visited {
     color: var(--white);
 }
 
+.button a:visited {
+    color: var(--black);
+}
+
 .card-bottom a:hover {
     color: var(--orange);
 }
@@ -419,6 +423,14 @@ footer a:visited {
 }
 
 input[type="SUBMIT"] {
+    width: fit-content;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: auto;
+    display: flex;
+}
+
+.google {
     width: fit-content;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -711,7 +723,7 @@ select {
 
 .create-account div {
     padding: 4%;
-    width: max-content;
+    /* width: max-content; */
 
 }
 
@@ -873,6 +885,10 @@ input {
     line-height: 1.5;
     margin-left: 1rem;
     color: var(--black);
+}
+
+.center-text {
+    text-align: center;
 }
 
 .text-width a:visited {
@@ -1208,6 +1224,14 @@ h1 {
         justify-content: center;
     }
 
+    .create-account {
+        width: 100%;
+        border-left: none;
+        border-top: var(--primary) 3px solid;
+
+    /* border: red 3px solid; */
+    }
+
 }
 
 
@@ -1394,6 +1418,55 @@ h1 {
         display: flex;
         justify-content: center;
     }
+
+    .login-container {
+        /* border: red 3px solid; */
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .login-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        padding: 4%;
+        width: 100%;
+        background-color: var(--white);
+        /* border: red 3px solid; */
+    }
+
+    .create-account {
+        width: 100%;
+        border-left: none;
+        border-top: var(--primary) 3px solid;
+    }
+
+    .markets-container {
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 4%;
+        width: 100%;
+        /* background-color: var(--lightest-yellow); */
+    }
+    .markets-img {
+        width: 80%;
+        height: auto;
+        border-radius: 40px 0;
+        /* border: var(--white) 5px solid; */
+        margin: auto;
+    }
+
+
 
 }
 
