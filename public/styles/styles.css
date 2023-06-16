@@ -434,14 +434,6 @@ input[type="SUBMIT"] {
     display: flex;
 }
 
-.google {
-    width: fit-content;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    margin: auto;
-    display: flex;
-}
-
 .contact-content input[type="SUBMIT"] {
     margin-top: 2rem;
 }
@@ -496,6 +488,22 @@ input[type="SUBMIT"] {
 
 .button:active {
     opacity: .5;
+}
+
+.google {
+    width: fit-content;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.logout {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* create a new class with these same properties and apply to list of all markets */
 }
 
 
@@ -598,6 +606,14 @@ label {
     background-color: var(--lightest-yellow);
 }
 
+/* .comics tr:nth-child(even) {
+    background-color: var(--grey);
+} */
+
+/* .comics thead {
+    background-color: var(--grey);
+} */
+
 .comics label {
     text-align: end;
 }
@@ -610,6 +626,14 @@ th, td {
     text-align: center;
     word-wrap: break-word;
 }
+
+/* th,
+td {
+    padding: 1%;
+    border: var(--blue) solid 2px;
+    max-width: 100%;
+    font-size: 0.9em;
+} */
 
 select {
     display: flex;
