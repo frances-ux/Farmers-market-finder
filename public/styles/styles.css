@@ -288,6 +288,10 @@ a:visited {
     color: var(--black);
 }
 
+.google a:visited {
+    color: var(--black);
+}
+
 .card-bottom a:hover {
     color: var(--orange);
 }
