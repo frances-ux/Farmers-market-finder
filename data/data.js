@@ -72,7 +72,7 @@ module.exports = [
     location: "Located inside Mall 2121, formerly known as the Ponce De Leon Mall",
     description: "Coconut Barrel is Northeast Florida's Largest Artisan Market. We have over 200+ Vendors spanning over 9,000 indoor square feet located inside Mall 2121, formerly known as the Ponce De Leon Mall. We occupy 3 storefronts inside Mall 2121.",
     email: "coconutbarrel@gmail.com",
-    image: "coconut-barrel-farmers-market-3.png"
+    image: "coconut-barrel-farmers-market-2.jpeg"
   }, {
     _id: uuid(),
     marketName: "County Line Produce",
