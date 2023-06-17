@@ -601,6 +601,12 @@ label {
     background-color: var(--lightest-yellow);
 }
 
+.second-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .comics label {
     text-align: end;
 }
@@ -616,11 +622,11 @@ th, td {
 
 .admin-only {
     margin: 5% 1rem;
-    width: 100%;
+    width: 75%;
     border-collapse: collapse;
     overflow-x: auto;
     overflow-y: auto;
-    background-color: var(--lightest-yellow);
+    background-color: var(--white);
 }
 
 .admin-only tr:nth-child(even) {
