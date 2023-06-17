@@ -288,6 +288,10 @@ a:visited {
     color: var(--black);
 }
 
+a.button {
+    color: var(--black);
+}
+
 .google a:visited {
     color: var(--black);
 }
@@ -467,6 +471,31 @@ input.button.extra {
     letter-spacing: 1px;
 }
 
+.button-secondary {
+    background: var(--darkest-blue);
+    border: 2px solid var(--yellow);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: var(--black);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.0rem;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 0.85rem 1rem;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin: 0 2rem;
+    letter-spacing: 1px;
+}
+
 .button:hover,
 .button:active {
     background-color: var(--orange);
@@ -476,8 +505,29 @@ input.button.extra {
     color: var(--black);
 }
 
+.button-secondary:hover,
+.button-secondary:active {
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
+    border-radius: 4px;
+    background-position: 0 0;
+    color: var(--black);
+}
+
 .button:active {
     opacity: .5;
+}
+
+.button-secondary:active {
+    opacity: .5;
+}
+
+/* .button-secondary:hover {
+    color: var(--black);
+} */
+
+a.button-secondary:hover {
+    color: var(--black);
 }
 
 .google {
