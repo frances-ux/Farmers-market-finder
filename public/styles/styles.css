@@ -33,6 +33,11 @@ body {
     background-color: var(--white);
 }
 
+nav, header {
+    color: var(--white);
+}
+
+
 nav .main-menu {
     display: flex;
     /* justify-content: space-between; */
@@ -275,13 +280,22 @@ img.farmers-finder-logo {
 
 /* links */
 
-a:link {
+.white {
+    color: var(--white);
+}
+
+/* a:link {
     color: white;
+    text-decoration: none;
+} */
+
+a:link {
+    color: inherit;
     text-decoration: none;
 }
 
 a:visited {
-    color: var(--white);
+    color: inherit;
 }
 
 .button a:visited {
@@ -385,7 +399,7 @@ footer li {
 }
 
 footer a:visited {
-    color: white;
+    color: inherit;
 }
 
 /* footer a:hover {
