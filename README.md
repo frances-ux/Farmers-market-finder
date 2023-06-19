@@ -1,159 +1,47 @@
-<div id="top"></div>
+# Farmers Market Finder
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
+## Welcome! 👋
 
-  <h3 align="center">Best-README-Template</h3>
+Thanks for checking out my CodeSquad project - Farmers Market Finder. Check out the web app at [Farmers Market Finder](https://farmers-market-finder.cyclic.app/).
 
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</div>
+[CodeSquad](https://www.codesquad.org) is an organization dedicated to building a pipeline of talent and stable careers in underrepresented communities.
 
+## What is Farmers Market Finder?
 
+Farmers Market Finder was created to help the community of St. Augustine locate farmers markets in their area. As a recent transplant to St. Augustine, I seeked a way to find healthy, sustainable food options while also supporting local farmers and artisans. I love bringing my young child to local parks and playgrounds around my community - we always have a great time playing and moving. Unfortunately, sometimes when visiting my local parks, I've noticed trash floating around the park - it gets stuck under the playground equipment, blown up against the fences, and scattered into the surrounding wooded areas. My heart breaks every time we have this experience. In the past, I've cleaned up our local park a bit here and there. It feels good to do something good for my community. 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+With this website, I'm hoping to start a movement. We can all feel good about supporting our local community while eating healthy, nutritious meals.
 
+## How to use Farmers Market Finder
 
+There are two primary ways to use Farmers Market Finder:
+* Find a farmers market in the St. Augustine, FL region 
+* Let us know of new farmers markets in the area by filling out our form
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+From the home page, you can navigate to the markets page where you can learn more about markets in the  submit your information and the park's information to let us know you'll be giving it some love. Share the news on your social pages with your friends - maybe they'll even help! You can also let us know if you'd like us to share on our social media to inspire other members of your community to come by and help. 
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+If you know a farmers market in St. Augustine that you KNOW needs some attention, submit all the relevant information on the "Listings" page (also accessed from the footer on mobile screens). We'll post this information within our markets page for people to easily find and visit. 
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+You can also see some of our success stories linked from the home page as well. 
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+## The development process
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+I started at the bottom with the concept, sitemap, wireframes, and mood board. Next up, let's start coding! I coded the HTML portion of the site first, and then added styling to make the site accessible and responsive. I utilized Javascript to make the site as fun and interactive as possible. 
 
-Use the `BLANK_README.md` to get started.
+For the backend, I used Node.js with Express/EJS and MongoDB with CRUD operations to allow users to enter data via the forms, search the database, and allow admin to update and delete data as necessary. 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+## Technologies utilized
 
+* Git
+* Github
+* CLI
+* HTML
+* CSS
+* Javascript
+* Node.js
+* Express with EJS
+* MongoDB
 
+## Contact me
 
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Frances Marquez - francesmarquez94@gmail.com
-
-Project Link: [Frances Course Project](https://github.com/CodeSquad-Boston/course-project-frances-ux)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+I would love to hear your feedback! So if you have anything you'd like to mention, please [email me](mailto:francesmarquez94@gmail.com).
