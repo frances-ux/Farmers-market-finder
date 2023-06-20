@@ -187,7 +187,8 @@ footer h3 {
 .hero-image {
     background-image: url(/images/background-veggies1.jpg);
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
     background-size: cover;
 }
 
