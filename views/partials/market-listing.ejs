@@ -7,7 +7,7 @@
             <td><%= market.marketName %></td>
             <td>
                 <a href="/admin/update-market/<%= market._id %>">    
-                    <input type="submit" value="Edit" class="button">
+                    <input type="submit" value="Edit" class="button-secondary">
                 </a>
             </td>
             <td><form action="/markets/<%= market._id%>?_method=DELETE" method="POST" enctype="application/x-www-form-urlencoded"><input type="submit" value="Delete" class="button"></form></td>
