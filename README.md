@@ -24,11 +24,15 @@ If you know a farmers market in St. Augustine that you KNOW needs some attention
 
 You can also see some of the featured vendors linked from the home page or check out the about page to learn more about the site. 
 
-## The development process
+## To use
 
-I started the design process with the concept, sitemap, wireframes, and mood board. Next up, let's start coding! I coded the HTML portion of the site first, and then added styling to make the site accessible and responsive. I utilized Javascript to add a bit of interactivity. 
+Visit the deployed website at: [https://farmers-market-finder.cyclic.app/](https://farmers-market-finder.cyclic.app/)
 
-For the backend, I used Node.js with Express/EJS and MongoDB with CRUD operations to allow users to enter data via the forms; and allow admin to update and delete data as necessary. 
+**OR**
+
+- Clone the repo to your desired location on your device. Best viewing experience on tablets and laptops.
+- Navigate to the top level of the directory.
+- Run the index.html in a browser. 
 
 ## Technologies utilized
 
