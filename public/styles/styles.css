@@ -201,7 +201,7 @@ footer h3 {
 }
 
 .page-hero {
-    height: 70vh;
+    min-height: 70vh;
     background-color: var(--light-blue);
 }
 
@@ -538,10 +538,6 @@ input.button.extra {
     opacity: .5;
 }
 
-/* .button-secondary:hover {
-    color: var(--black);
-} */
-
 a.button-secondary:hover {
     color: var(--black);
 }
@@ -564,6 +560,9 @@ a.button-secondary:hover {
     /* create a new class with these same properties and apply to list of all markets */
 }
 
+.fix-margin {
+    margin: 0;
+}
 
 
 
@@ -1591,6 +1590,13 @@ h1 {
     .second-wrapper {
         overflow-x: auto;
     
+    }
+
+    .logo-align {
+        display: flex;
+        justify-content: left;
+        align-items: start;
+        width: 100%;
     }
 
 
