@@ -1277,7 +1277,7 @@ h1 {
     }
 
     .map-desc-container {
-        /* width: 95vw; */
+        width: 95vw;
         height: 500px;
         margin-bottom: 5%;
         border: 3px solid var(--blue);
@@ -1295,7 +1295,7 @@ h1 {
         margin-right: 5%;
         display: flex;
         justify-content: center;
-        /* width: 95vw; */
+        width: 95vw;
         height: 500px;
         margin: auto;
         border: 3px solid var(--blue);
